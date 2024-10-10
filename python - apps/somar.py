@@ -1,0 +1,10 @@
+print("-----Dados Pessoais-----")
+nome = input("Digite o seu nome: ")
+sobrenome = "Ferreira"
+nome_completo = (nome + sobrenome)
+altura = float(input("Digite sua altura: "))
+idade = int(input("Digite a sua idade: "))
+print("Oi",nome_completo,"Tudo bem?")
+print("Estarei te retornando os dados cadastrados no sistema!")
+print("Sua altura é de:",altura)
+print("Sua idade é de:",idade)
